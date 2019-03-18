@@ -1,0 +1,52 @@
+﻿body
+{
+	padding:10px;
+	font-size:45px;
+	font-family: 'Do Hyeon', sans-serif;
+	font-weight:bold;
+}
+
+.container{
+	width:350px;
+	height:100px;
+}
+
+.school-number{
+	width:60%;
+	height:40%;
+	animation-duration: 3s;
+	animation-name: slide1;
+}
+
+.name{
+	width:40%;
+	height:40%;
+	animation-duration: 3s;
+	animation-name: slide2;
+	
+}
+
+@keyframes slide1{
+	from{
+		padding:10px;
+		color:rgb(150,150,200);
+	}
+	to{
+		padding: 100px;
+		color:rgb(20,50,150);
+	
+	}
+
+}
+@keyframes slide2{
+	from{
+		padding:390px;
+		color:rgb(200,200,230);
+
+	}
+	to{
+		padding:150px;
+		color:rgb(130,140,190);
+	}
+
+}
