@@ -1,0 +1,35 @@
+﻿ <style>
+    /* Prevents slides from flashing */
+    #slides {
+      display:none;
+    }
+  </style>
+  <link rel="stylesheet" href="homework4.css" />
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="jquery.slides.min.js"></script>
+
+  <script>
+    $(function(){
+      $("#slides").slidesjs({
+        width: 940,
+        height: 528
+      });
+    });
+  </script>
+</head>
+<body>
+	<center>
+	<h1>
+	My Photo Gallery
+	</h1>
+	</center>
+	<h4>
+	spring
+	</h4>
+    <div id="slides">
+		<img src="image/image1.jpg">
+		<img src="image/image2.jpg">
+		<img src="image/image3.jpg">
+		<img src="image/image4.jpg">
+	</div>
+</body>

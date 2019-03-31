@@ -1,0 +1,53 @@
+﻿body
+{
+	background-color:rgb(180,230,200);
+	font-family: 'Do Hyeon', sans-serif;
+}
+
+.content h1{
+	font-size:50px;
+}
+
+.content h5{
+	text-align:right;
+}
+
+#name{
+	font-weight:bold;
+
+}
+
+#table{
+	font-weight:bold;
+	text-align:right;
+}
+
+.seasons{
+	display:flex;
+
+}
+
+#spring h2{
+	color:rgb(220,120,150);
+}
+#spring p{
+	color:rgb(240,140,170);
+}
+
+#summer h2{
+	color:rgb(90,110,200);
+}
+#summer p{
+	color:rgb(130,150,240);
+}
+
+#autumn h2{
+	color:rgb(225,80,0);
+}#autumn p{
+	color:rgb(240,100,0);
+}#winter h2{
+	color:rgb(250,250,250);
+}#winter p{
+	color:rgb(230,230,230);
+}
+
