@@ -7,14 +7,22 @@
 	var y=30;
 	var a=130;
 	var dx=5;
-	var dy=5;
+	var dy = 5;
 
-	function init()
-	{
-    context1= myCanvas.getContext('2d');
-	context2=myCanvas.getContext('2d');
-    setInterval(draw,40);
-	}
+	var holder;
+
+	function init() {
+
+	    context1 = myCanvas.getContext('2d');
+	    context2 = myCanvas.getContext('2d');
+	    holder=setInterval(draw, 40);
+
+	    document.querySelector("#start").addEventListener('click', function () {
+
+	        
+	    })
+    }
+
 	function draw(){
    
 	context1.clearRect (0,0, 500,400);
@@ -35,22 +43,24 @@
 	context2.closePath();
     context2.fill();
 
-	if(x<0 || x>300)
-		dx=-dx;
-	else if(y<0)
-		dy=-dy;
-	else if(y>130 && a<x && x<a+50)
-		dy=-dy;
-	else if(y>150)
-		alert('end');
+    if (x < 0 || x > 300)
+        dx = -dx;
+    else if (y < 0)
+        dy = -dy;
+    else if (y > 130 && a < x && x < a + 50)
+        dy = -dy;
+    else if (y > 150) {
+
+        alert('end');
+        clearInterval(holder);
+        
+    }
 
 	x+=dx;
-	y+=dy;
+	y += dy;
+
 
 	document.onkeydown=func;
-	
-	
-	
 	}
 
 	
