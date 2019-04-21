@@ -15,11 +15,11 @@
 
 	    context1 = myCanvas.getContext('2d');
 	    context2 = myCanvas.getContext('2d');
-	    holder=setInterval(draw, 40);
+	    
 
-	    document.querySelector("#start").addEventListener('click', function () {
+	    document.querySelector("#start").addEventListener('click', function(){
 
-	        
+	        holder=setInterval(draw, 40);
 	    })
     }
 
@@ -52,7 +52,8 @@
     else if (y > 150) {
 
         alert('end');
-        clearInterval(holder);
+		clearInterval(holder);
+        
         
     }
 
