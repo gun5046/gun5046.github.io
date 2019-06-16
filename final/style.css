@@ -1,0 +1,137 @@
+body{
+    background-image: url('images/night1.jpg');
+    margin-top:100px;
+    margin-left:70px;
+    display:flex;
+    font-family: 'Baloo Thambi', cursive;
+    font-weight:bold;
+    color:white;
+}
+
+#link{
+    
+    width:200px;
+    margin-left:100px;
+    margin-top:80px;
+    
+    
+    
+}
+
+a{
+    background-color:black;
+    color:white;
+    border-radius:100px;
+    height:20px;
+}
+
+a:hover {
+	transform: translateY(-4px);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn{
+    margin-bottom:40px;
+    border-radius: 100px;
+    background-color:black;
+    color:white;
+    margin-top:30px;
+    margin-left:20px;
+    font-size:20px;
+    font-family: 'Baloo Thambi', cursive;
+    font-weight:bold;
+}
+
+.btn:hover {
+	transform: translateY(-4px);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+#login_box{
+    margin-top:120px;
+    margin-left:20px;
+    font-size:20px;
+    height:250px;
+    width:350px;
+   
+}
+
+#login_box1{
+    color:white;
+    margin-top:50px;
+    margin-left:70px;
+    font-size:40px;
+    height:350px;
+    width:500px;
+   
+}
+
+  
+@import url('https://fonts.googleapis.com/css?family=Baloo+Thambi');
+
+.text-container > span {
+    
+    color: #111;
+    display: inline-block;
+    align-items: center;
+    font-size: 70px;
+    text-transform: uppercase;
+    animation: glow 2s ease-in-out infinite;
+}
+
+@keyframes glow {
+  0%, 100% {
+    color: #FFF;
+    text-shadow: 0 0 10px #0652DD, 0 0 50px #0652DD, 0 0 100px #0652DD;
+  }
+  
+  10%, 90% {
+    color: #111;
+    text-shadow: none;
+  }
+}
+
+.text-container > span:nth-child(2) {
+	animation-delay: 0.25s;
+}
+
+.text-container > span:nth-child(3) {
+	animation-delay: 0.5s;
+}
+
+.text-container > span:nth-child(4) {
+	animation-delay: 0.75s;
+}
+
+.text-container > span:nth-child(5) {
+	animation-delay: 1s;
+}
+
+.text-container > span:nth-child(6) {
+	animation-delay: 1.25s;
+}
+
+.text-container > span:nth-child(7) {
+	animation-delay: 1.5s;
+}
+
+
+#pic{
+    width:50px;
+    
+}
+p{
+      display:inline-block;  
+}
+img{
+    width:150px;
+    height:150px;
+    border-radius:50px;
+    display:inline-block;
+}
+
+.map_ma {width:150px; height:150px; clear:both; border:solid 1px red; border-radius:50px;
+    margin-left:230px; margin-top:90px;}
